@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- REST API 配置示例
+		<service name="Hello" class="my.HelloApi" />	 	
+	-->
+	<!-- 文件上传配置示例
+		<upload name="SimpleFileUpload" class="my.SimpleUploader" /> 
+	-->
+	
+	<!-- 用户  -->
+	<service name="UserRegister" class="my.user.UserRegisterApi" />
+	<service name="UserLogin" class="my.user.UserLoginApi" />
+	<service name="UserLogout" class="my.user.UserLogoutApi" />
+	
+	<!-- 帖子 -->
+	<service name="TopicAdd" class="my.topic.TopicAddApi" />
+	<service name="TopicQuery" class="my.topic.TopicQueryApi" />
+		
+</config>
